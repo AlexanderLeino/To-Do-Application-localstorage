@@ -39,10 +39,12 @@ input[type="submit"]{
     list-style: none;
 }
 #todos-list li {
-    background-color: var(--light);
+    background-color: darkslateblue;
     margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
+    color: white;
+    font-weight: bold;
 }
 #todos-list li button {
     background-color: firebrick;
