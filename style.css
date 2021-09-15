@@ -1,0 +1,51 @@
+:root{
+    --light:white
+}
+
+body {
+    background-color:var(--light);
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h1{
+    text-align: center;
+}
+
+input {
+        font-size: 38px;
+        padding: 10px;
+    }
+input[type="submit"]{
+    background: darkslateblue;
+    color: white;
+    cursor: pointer;
+}
+.container {
+    background: white;
+    max-width: 600px;
+    margin: 60px auto 0;
+    padding: 15px;
+}
+#new-todo-form {
+    display: flex;
+    
+}
+#new-todo {
+    flex-grow: 1;
+}
+#todos-list {
+    padding-left: 0;
+    list-style: none;
+}
+#todos-list li {
+    background-color: var(--light);
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#todos-list li button {
+    background-color: firebrick;
+    color: var(--light);
+    cursor: pointer;
+}
